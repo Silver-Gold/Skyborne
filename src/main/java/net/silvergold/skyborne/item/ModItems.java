@@ -12,6 +12,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Skyborne.MOD_ID);
 
+    //Add new items here
     public static final RegistryObject<Item> ANDESITE_DEPOSIT = ITEMS.register("andesite_deposit",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
