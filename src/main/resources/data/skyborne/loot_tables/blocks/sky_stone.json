@@ -33,7 +33,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "skyborne:sky_stone"
+              "name": "skyborne:cobbled_sky_stone"
             }
           ]
         }

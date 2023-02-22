@@ -22,6 +22,8 @@ public class ModBlocks {
 
     //Add new Blocks here. Ores should be made with "DropExperienceBlock" instead of "Block"
     public static final RegistryObject<Block> SKY_STONE = registerBlock("sky_stone", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).requiresCorrectToolForDrops()), ModCreativeModeTab.SKYBORNE_TAB);
+    public static final RegistryObject<Block> COBBLED_SKY_STONE = registerBlock("cobbled_sky_stone", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2f).requiresCorrectToolForDrops()), ModCreativeModeTab.SKYBORNE_TAB);
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

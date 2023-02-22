@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "skyborne:sky_stone"
+    "skyborne:sky_stone",
+    "skyborne:cobbled_sky_stone"
   ]
 }
