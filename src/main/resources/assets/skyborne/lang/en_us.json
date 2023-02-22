@@ -1,5 +1,7 @@
 {
   "item.skyborne.andesite_deposit": "Andesite Deposit",
 
-  "block.skyborne.sky_stone": "Sky Stone"
+  "block.skyborne.sky_stone": "Sky Stone",
+
+  "itemGroup.skybornetab": "Skyborne"
 }

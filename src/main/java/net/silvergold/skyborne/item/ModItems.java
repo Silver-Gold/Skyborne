@@ -14,7 +14,7 @@ public class ModItems {
 
     //Add new items here
     public static final RegistryObject<Item> ANDESITE_DEPOSIT = ITEMS.register("andesite_deposit",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SKYBORNE_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

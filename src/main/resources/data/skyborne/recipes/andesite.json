@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "skyborne:andesite_deposit"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "minecraft:andesite"
+  }
+}

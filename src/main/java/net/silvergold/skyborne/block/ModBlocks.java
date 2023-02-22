@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.silvergold.skyborne.Skyborne;
+import net.silvergold.skyborne.item.ModCreativeModeTab;
 import net.silvergold.skyborne.item.ModItems;
 
 import java.util.function.Supplier;
@@ -20,7 +21,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Skyborne.MOD_ID);
 
     //Add new Blocks here. Ores should be made with "DropExperienceBlock" instead of "Block"
-    public static final RegistryObject<Block> SKY_STONE = registerBlock("sky_stone", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+    public static final RegistryObject<Block> SKY_STONE = registerBlock("sky_stone", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).requiresCorrectToolForDrops()), ModCreativeModeTab.SKYBORNE_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
