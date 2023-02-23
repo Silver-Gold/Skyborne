@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "skyborne:block/stripped_stone_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "skyborne:block/stripped_stone_wood"
+    },
+    "axis=z": {
+      "model": "skyborne:block/stripped_stone_wood",
+      "x": 90
+    }
+  }
+}

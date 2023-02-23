@@ -3,6 +3,11 @@
   "values": [
     "skyborne:sky_stone",
     "skyborne:cobbled_sky_stone",
-    "skyborne:stone_planks"
+    "skyborne:stone_planks",
+    "skyborne:stone_log",
+    "skyborne:stone_log_andesite",
+    "skyborne:stripped_stone_log",
+    "skyborne:stone_wood",
+    "skyborne:stripped_stone_wood"
   ]
 }

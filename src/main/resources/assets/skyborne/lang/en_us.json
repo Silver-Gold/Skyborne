@@ -4,6 +4,13 @@
   "block.skyborne.sky_stone": "Sky Stone",
   "block.skyborne.cobbled_sky_stone": "Cobbled Sky Stone",
   "block.skyborne.stone_planks": "Stone Planks",
+  "block.skyborne.stone_log": "Stone Log",
+  "block.skyborne.stone_log_andesite": "Andesite Deposit",
+  "block.skyborne.stripped_stone_log": "Stripped Stone Log",
+  "block.skyborne.stone_wood": "Stone Wood",
+  "block.skyborne.stripped_stone_wood": "Stripped Stone Wood",
+  "block.skyborne.yellow_elysian_foliage": "Yellow Elysian Foliage",
+
 
 
   "itemGroup.skybornetab": "Skyborne"
