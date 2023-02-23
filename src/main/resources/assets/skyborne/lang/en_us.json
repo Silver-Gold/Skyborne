@@ -1,7 +1,10 @@
 {
+  "item.skyborne.andesite_deposit": "Andesite Deposit",
+
   "block.skyborne.sky_stone": "Sky Stone",
   "block.skyborne.cobbled_sky_stone": "Cobbled Sky Stone",
-  "item.skyborne.andesite_deposit": "Andesite Deposit",
+  "block.skyborne.stone_planks": "Stone Planks",
+
 
   "itemGroup.skybornetab": "Skyborne"
 }
