@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "skyborne:block/stone_log_quartz_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "skyborne:block/stone_log_quartz"
+    },
+    "axis=z": {
+      "model": "skyborne:block/stone_log_quartz_horizontal",
+      "x": 90
+    }
+  }
+}

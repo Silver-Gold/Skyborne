@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyborne:block/stone_log_top",
+    "side": "skyborne:block/stone_log_quartz"
+  }
+}

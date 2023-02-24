@@ -43,6 +43,9 @@ public class ModFlammableRotatedPillarBlock extends RotatedPillarBlock {
             if (state.is(ModBlocks.STONE_LOG_ANDESITE.get())) {
                 return ModBlocks.STONE_LOG_ANDESITE.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
+            if (state.is(ModBlocks.STONE_LOG_QUARTZ.get())) {
+                return ModBlocks.STONE_LOG_QUARTZ.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
         }
         return super.getToolModifiedState(state, context, toolAction, simulate);
     }

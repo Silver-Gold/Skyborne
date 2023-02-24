@@ -9,7 +9,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab SKYBORNE_TAB = new CreativeModeTab("skybornetab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.ANDESITE_DEPOSIT.get());
+            return new ItemStack(ModItems.YELLOW_STONE_ACORN.get());
         }
     };
     //Paste here

@@ -33,7 +33,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> STONE_WOOD = registerBlock("stone_wood", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(2f).sound(SoundType.NETHER_BRICKS)), ModCreativeModeTab.SKYBORNE_TAB);
     public static final RegistryObject<Block> STRIPPED_STONE_WOOD = registerBlock("stripped_stone_wood", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).strength(2f).sound(SoundType.NETHER_BRICKS)), ModCreativeModeTab.SKYBORNE_TAB);
     public static final RegistryObject<Block> STONE_LOG_ANDESITE = registerBlock("stone_log_andesite", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(2f).sound(SoundType.NETHER_BRICKS)), ModCreativeModeTab.SKYBORNE_TAB);
+    public static final RegistryObject<Block> STONE_LOG_QUARTZ = registerBlock("stone_log_quartz", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(2f).sound(SoundType.NETHER_BRICKS)), ModCreativeModeTab.SKYBORNE_TAB);
     public static final RegistryObject<Block> YELLOW_ELYSIAN_FOLIAGE = registerBlock("yellow_elysian_foliage", () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).sound(SoundType.AZALEA_LEAVES)), ModCreativeModeTab.SKYBORNE_TAB);
+    public static final RegistryObject<Block> PINK_ELYSIAN_FOLIAGE = registerBlock("pink_elysian_foliage", () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).sound(SoundType.AZALEA_LEAVES)), ModCreativeModeTab.SKYBORNE_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
