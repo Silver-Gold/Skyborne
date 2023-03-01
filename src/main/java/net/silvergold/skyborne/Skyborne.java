@@ -10,6 +10,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.silvergold.skyborne.block.ModBlocks;
 import net.silvergold.skyborne.item.ModItems;
+import net.silvergold.skyborne.world.feature.ModConfiguredFeatures;
 import org.slf4j.Logger;
 
 // This is a test comment
@@ -24,6 +25,8 @@ public class Skyborne {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModConfiguredFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

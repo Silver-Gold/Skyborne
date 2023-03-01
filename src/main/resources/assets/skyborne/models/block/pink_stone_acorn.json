@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "skyborne:item/pink_stone_acorn"
+  }
+}

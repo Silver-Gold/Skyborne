@@ -1,7 +1,5 @@
 {
   "item.skyborne.andesite_deposit": "Andesite Deposit",
-  "item.skyborne.yellow_stone_acorn": "Yellow Stone Acorn",
-  "item.skyborne.pink_stone_acorn": "Pink Stone Acorn",
 
   "block.skyborne.sky_stone": "Sky Stone",
   "block.skyborne.cobbled_sky_stone": "Cobbled Sky Stone",
@@ -14,6 +12,8 @@
   "block.skyborne.stripped_stone_wood": "Stripped Stone Wood",
   "block.skyborne.yellow_elysian_foliage": "Yellow Elysian Foliage",
   "block.skyborne.pink_elysian_foliage": "Pink Elysian Foliage",
+  "block.skyborne.yellow_stone_acorn": "Yellow Stone Acorn",
+  "block.skyborne.pink_stone_acorn": "Pink Stone Acorn",
 
 
 

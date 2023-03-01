@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "skyborne:stone_log",
+    "skyborne:stone_wood",
+    "skyborne:stripped_stone_log",
+    "skyborne:stripped_stone_wood",
+    "skyborne:stone_log_andesite",
+    "skyborne:stone_log_quartz"
+  ]
+}

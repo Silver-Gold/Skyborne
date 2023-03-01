@@ -15,10 +15,6 @@ public class ModItems {
     //Add new items here
     public static final RegistryObject<Item> ANDESITE_DEPOSIT = ITEMS.register("andesite_deposit",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SKYBORNE_TAB)));
-    public static final RegistryObject<Item> YELLOW_STONE_ACORN = ITEMS.register("yellow_stone_acorn",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SKYBORNE_TAB)));
-    public static final RegistryObject<Item> PINK_STONE_ACORN = ITEMS.register("pink_stone_acorn",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SKYBORNE_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
